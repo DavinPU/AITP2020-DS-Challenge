@@ -1,0 +1,11 @@
+## Parsing Data
+
+# Focused on variables: HT, HTCD, ACTUALHT, SPCD, DIA, INVYR
+- reduced to 11 million data points initially
+
+
+Findings from examining this subset:
+- some heights were negative
+- all heights that were negative resulted in a HTCD of 4 (model could be incorrect?)
+- na values were deemed unimportant and removed for our next graphs:
+
