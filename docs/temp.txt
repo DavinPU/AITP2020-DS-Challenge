@@ -1,0 +1,17 @@
+## Parsing Data
+
+# Focused on variables: HT, HTCD, ACTUALHT, SPCD, DIA, INVYR
+
+~ 1-2 million data points
+
+Findings from examining this subset:
+- some heights were negative
+- all heights that were negative resulted in a HTCD of 4 (model could be incorrect?)
+- some trees measured > 400 ft (tallest known tree is 380ft).
+- some diameters measured over 30 ft (biggest known tree no larger than 28 ft).
+- na values were deemed unimportant and removed for our next analysis
+
+Graph/analysis focus:
+- top 10 trees by height
+- does remeasuring the same tree matter?
+- height vs diameter
